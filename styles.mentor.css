@@ -1,0 +1,87 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:  hsl(212, 45%, 89%);
+    position: relative;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+
+.barcode-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(0, 0%, 100%);
+    width: 245px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    border: none;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+
+.barcode img{
+    width: 220px;
+    aspect-ratio: 1;
+    border-radius: 10px;
+}
+
+.item {
+    width: 200px;
+ 
+}
+h1{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Specimen', sans-serif;
+    color: hsl(218, 44%, 22%);
+}
+
+
+
+p{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Specimen', sans-serif;
+}
+
+
+
+
+@media screen and (min-width: 1400px){
+       .barcode-card{
+         width: 295px;
+       }
+
+       .item{
+         width: 250px
+       }
+
+       .barcode img{
+         width: 270px;
+       }
+
+       h1{
+         font-size: 20px;
+       }
+
+       p{
+         font-size: 16px;
+       }
+}
