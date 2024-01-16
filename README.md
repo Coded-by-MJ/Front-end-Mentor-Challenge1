@@ -11,8 +11,8 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL ](https://www.frontendmentor.io/solutions/responsive-barcode-using-css-grid-and-flexbox-ypb1X8O7q5)
+- Live Site URL: [live site URL](https://coded-by-mj.github.io/Front-end-Mentor-Challenge1/)
 
 
 
